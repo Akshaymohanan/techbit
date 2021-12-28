@@ -1,0 +1,368 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- Banner -->
+
+<div class="site-blocks-cover overlay" data-aos="fade" data-stellar-background-ratio="0.5">
+  <video autoplay muted loop id="intro">
+     <source src="{% static 'website/images/INTRO.mp4' %}" type="video/mp4">
+  </video>
+  <div class="row align-items-center justify-content-center text-center">
+    <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+      <div class="row justify-content-center mb-4" >
+        <div class="col-md-8 text-center" id="Text">
+          <h1 style="font-size: 100px;">We <span class="typed-words"></span></h1>
+          <p class="lead mb-5"> <a href="#" target="_blank"></a></p>
+            <div><a href="https://www.youtube.com/channel/UCRaG9fqQ6ckCZF8glwz3oTA?sub_confirmation=1" class="btn btn-primary btn-md">Watch
+                Videos</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-- Vision -->
+
+<section class="site-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 box-with-humber">
+          <!-- <div class="number-behind">01.</div> -->
+          <h2 class="text-primary">Vision</h2>
+          <p class="mb-4">To promote and encourage the early understanding of advanced electronics and IT at schools and colleges, and prepare students to build their technical knowledge towards building a better tomorrow.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 box-with-humber">
+          <!-- <div class="number-behind">02.</div> -->
+          <h2 class="text-primary">Mission</h2>
+          <p class="mb-4">To provide quality in our products and commitment to the customers by providing the required services and support.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="p-3 box-with-humber">
+          <!-- <div class="number-behind">03.</div> -->
+          <h2 class="text-primary">Mile stones</h2>
+          <div class="unit-4 d-flex">
+            <div>
+              <ul class="list-unstyled ul-check primary">
+              <li>We started our journey to fulfil our vision on 21 April 2018 under IEDC VISAT</li>
+              <li>Officially Launched a YouTube channel on 30 Sep 2018</li>
+              <li>Delivered our first official project on 12 May 2019</li>
+              <li>Embedded prototyping support for a company on 8 Dec 2019</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+
+<section class="site-section border-bottom" id="services-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center" data-aos="fade-up">
+        <h2 class="text-black h1 site-section-heading text-center">Our Services</h2>
+      </div>
+    </div>
+    <div class="row align-items-stretch">
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="unit-4 d-flex">
+          <div class="unit-4-icon mr-4"><img src="{% static 'website/images/projectassistance.png' %}" style="width: 40px;"></div>
+          <div>
+            <h3>Project Assistance</h3>
+            <p>We provide full on assistance and support for personal and academic projects. We make sure that the students are also equally involved in this process and learn something new throughout the project. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="unit-4 d-flex">
+          <div class="unit-4-icon mr-4"><img src="{% static 'website/images/prototype.png' %}" style="width: 40px;"></div>
+          <div>
+            <h3>Prototyping</h3>
+            <p>We provide our undivided attention, support and resources in order to prototype a product, thereby helping entrepreneurs and makers achieve their idea. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="unit-4 d-flex">
+          <div class="unit-4-icon mr-4"><img src="{% static 'website/images/logical-thinking.png' %}" style="width: 40px;"></div>
+          <div>
+            <h3>Skill Development Programs & Workshops</h3>
+            <p>We organize and conduct  various technical sessions and workshops for students, professionals, and self-help groups to help them build their skills to endure in the future.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="unit-4 d-flex">
+          <div class="unit-4-icon mr-4"><img src="{% static 'website/images/iot.png' %}" style="width: 40px;"></div>
+          <div>
+            <h3>IoT</h3>
+            <p>We implement and support various IoT solutions for commercial and personal use.</p>
+            <!-- <p><a href="#">Learn More</a></p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="unit-4 d-flex">
+          <div class="unit-4-icon mr-4"><img src="{% static 'website/images/embedded_solutions.png' %}" style="width: 40px;"></div>
+          <div>
+            <h3>Embedded Solutions</h3>
+            <p>We implement and create custom embedded systems to satisfy the customer needs and requirements.</p>
+            <!-- <p><a href="#">Learn More</a></p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="unit-4 d-flex">
+          <div class="unit-4-icon mr-4"><img src="{% static 'website/images/home_automation.png' %}" style="width: 40px;"></div>
+          <div>
+            <h3>Home Automation</h3>
+            <p>We implement and support various home automation solutions as per the customer requirements.</p>
+            <!-- <p><a href="#">Learn More</a></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+
+<div id="particles-js"></div>
+
+<section class="site-section" id="work-section">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-8 text-center">
+        <h2 class="text-black h1 site-section-heading text-center">Products & Projects</h2>
+        <p class="lead">Feel free to browse through some of our works.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row-fluid d-flex justify-content-center">
+
+      <!-- <button onclick="slideback()"><h1 style="position: relative;">back</h1></button>     -->
+
+      {% for i in product %}
+      <a href="{% url 'product' i.id %}">
+        <div class="polaroidimg" style="border-radius: 12px; position: relative;">
+          <images><img src= {{i.image.url}} alt="Img" style="height: 360px; width: 500px; border-radius: 12px;">
+          <div class="containerimg">
+            <h3>{{i.name}}</h3>
+          </div></images>
+        </div>
+      </a>
+      {% endfor %}
+
+      <!-- <button onclick="slideShow()"><h1 style="position: relative;">forward</h1></button> -->
+
+    </div>
+  </div>
+
+</section>
+
+<!-- Aboutus -->
+
+<div class="site-section" id="about-section">
+  <div class="container">
+    <div class="row mb-5">
+      
+      <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+        <img src="{% static 'website/images/TechbIts logo.png' %}" alt="Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 order-md-1" data-aos="fade">
+
+        <div class="row">
+
+          <div class="col-12">
+            <div class="text-left pb-1">
+              <h2 class="text-black h1 site-section-heading">About Us</h2>
+            </div>
+          </div>
+          <div class="col-12 mb-4">
+            <p class="lead">Techbit Projects is a service-oriented company established in the Vijnan Institute of Science and Technology. We provide technical assistance and support in terms of electronics, hardware, and software. We organize and conduct technical sessions and workshops for students, professionals, and self-help groups to help them build their technical skills to endure in the future.</p>
+          </div>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Expansion phases -->
+
+<section class="site-section border-bottom" id="services-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 text-center" data-aos="fade-up">
+        <h2 class="text-black h1 site-section-heading text-center">Expansion Phases</h2>
+      </div>
+    </div>
+    <div class="row align-items-stretch">
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+        <div class="unit-4 d-flex">
+          <div>
+            <h3>Phase 1</h3>
+            <ul class="list-unstyled ul-check primary">
+            <li>Project Assistance</li>
+            <li>Technical Workshops</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="unit-4 d-flex">
+          <div>
+            <h3>Phase 2</h3>
+            <ul class="list-unstyled ul-check primary">
+            <li>Prototyping</li>
+            <li>IoT</li>
+            <li>Home Automation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="unit-4 d-flex">
+          <div>
+            <h3>Phase 3</h3>
+            <!-- <ul class="list-unstyled ul-check primary">
+              <li>AI and ML solutions</li>
+              <li>Web designing and hosting support</li>
+              <li>Cross Platform Application Development</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="unit-4 d-flex">
+          <div>
+            <h3>Phase 4</h3> -->
+             <!-- <ul class="list-unstyled ul-check primary">
+              <li>Club Electron (a community for students and teachers interested in electronics)</li>
+              <li>Computer Hardware and Networking</li>
+              <li>Cloud Solutions</li>
+             </ul> -->
+              
+          <!-- </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="unit-4 d-flex">
+          <div>
+            <h3>Phase 5</h3> -->
+            <!-- <ul class="list-unstyled ul-check primary">
+              <li>Electronic Products and Module Manufacturing</li>
+              <li>Student Ambassador Program </li>
+              <li>Internship Program</li>
+              <li>Outsourcing</li>
+             </ul> -->
+          <!-- </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="unit-4 d-flex">
+          <div>
+            <h3>Phase 6</h3> -->
+            <!-- <ul class="list-unstyled ul-check primary">
+              <li>Bits Academy (Institute for Advanced Education)</li>
+              <li>Blockchain Technology</li>
+             </ul> -->
+          <!-- </div>
+        </div>
+      </div>  -->
+     
+    </div>
+  </div>
+</section>
+
+
+<!-- Our team -->
+
+<div class="site-section border-bottom" id="team-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-7 text-center">
+        <h2 class="text-black h1 site-section-heading">Our Team</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+        <div class="person text-center">
+          <img src="{% static 'website/images/person_2.jpg' %}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+          <h3>Arun V Nair</h3>
+          <p class="position text-muted"></p>
+          <!-- <p class="mb-4">Phone: +91 9747475770</p>
+          <p  class="mb-4">WhatsApp: +91 9747475770</p>
+          <p class="mb-4">Email: arunvnair94@gmail.com</p> -->
+          <ul class="ul-social-circle">
+            <li><a href="https://facebook.com/arun.v.nair.96"><span class="icon-facebook"></a></li>
+            <li><a href="https://twitter.com/arunvnair94"><span class="icon-twitter"></a></li>
+            <li><a href="https://linkedin.com/in/arun-v-nair-539750130"><span class="icon-linkedin"></a></li>
+            <li><a href="https://instagram.com/avn5770"><span class="icon-instagram"></a></li>
+            <li><a href="mailto:arunvnair94@gmail.com"><span class="icon-mail_outline"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
+        <div class="person text-center">
+          <img src="{% static 'website/images/person_3.jpg' %}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+          <h3>Akshay Mohanan</h3>
+          <p class="position text-muted"></p>
+          <!-- <p class="mb-4">Phone: +91 9745633931</p>
+          <p class="mb-4">WhatsApp: +91 9745633931</p>
+          <p class="mb-4">Email: akshaykarapillil@gmail.com</p> -->
+          <ul class="ul-social-circle">
+            <li><a href="https://facebook.com/Akshaymohanan007"><span class="icon-facebook"></a></li>
+            <li><a href="https://twitter.com/Akshaymohanan?s=09"><span class="icon-twitter"></a></li>
+            <li><a href="https://linkedin.com/in/akshay-mohanan-1201a1158"><span class="icon-linkedin"></a></li>
+            <li><a href="https://instagram.com/akshaymohanan007"><span class="icon-instagram"></a></li>
+            <li><a href="mailto:akshaykarapillil@gmail.com"><span class="icon-mail_outline"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
+        <div class="person text-center">
+          <img src="{% static 'website/images/person_4.jpg' %}" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
+          <h3>Sreejith Sajeev</h3>
+          <p class="position text-muted"></p>
+          <!-- <p class="mb-4">
+            <p>Phone: +91 9961617497</p>
+            <p>WhatsApp: +91 9961617497</p>
+            <p>Email: sreejithsajeev7@gmail.com</p>
+           </p> -->
+          <ul class="ul-social-circle">
+            <li><a href="https://facebook.com/sreejith.sajeev.96"><span class="icon-facebook"></a></li>
+            <li><a href="https://twitter.com/SREEJIT77332190"><span class="icon-twitter"></a></li>
+            <li><a href="https://linkedin.com/mwlite/in/sreejith-sajeev-a62561147"><span class="icon-linkedin"></a></li>
+            <li><a href="https://instagram.com/sree__ms07"><span class="icon-instagram"></a></li>
+            <li><a href="mailto:sreejithsajeev7@gmail.com"><span class="icon-mail_outline"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

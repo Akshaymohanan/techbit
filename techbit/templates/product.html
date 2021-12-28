@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div id="particles-js"></div>
+
+<!-- Products -->
+
+<section class="site-section mt-5" id="work-section">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-8 text-center">
+        <h2 class="text-black h1 site-section-heading text-center">Products & Projects</h2>
+        <p class="lead">Detials</p>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" style="padding-left: 60px;">
+            <img src="{{product.image.url}}" alt="img" style="height: 400px; width: 400px; border-radius: 16px;">
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" style="align-content: flex-start; padding-left: 180px;">
+          <h3>{{product.name}}</h3><br>
+          <h5>{{product.description}}</h5><br>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
